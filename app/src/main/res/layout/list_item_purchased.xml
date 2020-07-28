@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:paddingVertical="10dp"
+    android:paddingHorizontal="8dp"
+    android:id="@+id/linearLayoutItem">
+
+    <ImageView
+        android:id="@+id/bookImage"
+        android:layout_width="64dp"
+        android:layout_height="100dp"
+        android:layout_marginEnd="12dp"
+        android:contentDescription="@string/book_photo"
+        android:src="@drawable/book_cover" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvBookName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Ingliz tili grammatikasi\n(To'liq ma'lumot)"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/tvBookAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="Hafizov Sardor Boborajabovich"
+            android:textColor="#77000000"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            tools:ignore="HardcodedText" />
+
+        <Button
+            android:id="@+id/btnDownload"
+            android:layout_width="110dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end"
+            android:background="@drawable/btn_background"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            android:textColor="@drawable/btn_text_color"
+            android:text="@string/download" />
+
+        <TextView
+            android:id="@+id/downloadProgressBarText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+        <androidx.core.widget.ContentLoadingProgressBar
+            android:id="@+id/downloadProgressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

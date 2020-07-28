@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "158999497821",
+    "firebase_url": "https://hafiz-ebook.firebaseio.com",
+    "project_id": "hafiz-ebook",
+    "storage_bucket": "hafiz-ebook.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158999497821:android:c243b05e5b68c2ce4e91b4",
+        "android_client_info": {
+          "package_name": "uz.mirafzal.hafizovbooks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "158999497821-demmi019p2031snraplgidrgp7ms3t2t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "uz.mirafzal.hafizovbooks",
+            "certificate_hash": "d2b5d814fa7f57ae0a8d32d7c185eab69c038407"
+          }
+        },
+        {
+          "client_id": "158999497821-e7r7oon6l497t80pg8msicp9um9rgrt7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnqXRjUhIx8IibBKt63tPXui2PGDk7uq8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "158999497821-e7r7oon6l497t80pg8msicp9um9rgrt7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

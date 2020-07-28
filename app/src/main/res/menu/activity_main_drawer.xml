@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/menu_top_logged_out"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/login"
+            android:title="@string/login" />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_top_logged_in"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/phone_number_item"
+            android:title="" />
+
+        <item
+            android:id="@+id/payments"
+            android:title="@string/my_payments" />
+
+
+        <item
+            android:id="@+id/logout"
+            android:title="@string/logout" />
+
+
+    </group>
+
+    <group
+        android:id="@+id/menu_mid"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/discounts"
+            android:title="@string/discounts" />
+
+        <item
+            android:id="@+id/authors"
+            android:title="@string/authors" />
+
+    </group>
+
+    <group
+        android:id="@+id/menu_down"
+        android:checkableBehavior="none">
+
+        <item
+            android:id="@+id/settings"
+            android:title="@string/settings" />
+
+        <item
+            android:id="@+id/about"
+            android:title="@string/about_program" />
+
+    </group>
+
+</menu>
